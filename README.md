@@ -24,14 +24,14 @@ Play the game live: <a href="" title="try the game" target="_blank">here</a>
 
 
 ## Installation
--**Set Up Node Environment:**
+- **Set Up Node Environment:** <br/>
 => Ensure you have Node.js and npm (Node Package Manager) installed on your computer. You can download it from Node.js official website.
--**Download the Project:**
+- **Download the Project:** <br/>
 => git clone https://github.com/Ahmed-Maher77/Guess-the-Correct-Number-Game.git
--**Navigate to the Project Folder:**
+- **Navigate to the Project Folder:** <br/>
 => cd Guess-the-Correct-Number-Game
--**Install Dependencies:**
+- **Install Dependencies:** <br/>
 => npm install
--**Open in Browser:**
+- **Open in Browser:** <br/>
 => open `index.html` in your browser [by double-clicking on it]
 

@@ -1,0 +1,29 @@
+/* Reusable Classes */
+.h-screen {
+    height: 100svh;
+}
+.w-fit {
+    width: fit-content;
+}
+
+
+/* Main Content */
+body {
+    background-color: #000000
+}
+section {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 1px 1px 6px 0px #4b4b4bdd;
+}
+input {
+    transition: 0.1s;
+}
+input:focus {
+    outline: 1.8px solid #3f76ed !important;
+    border-color: transparent !important;
+}
+#checkBtn {
+    padding: 0.7rem;
+}

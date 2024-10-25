@@ -1,15 +1,15 @@
 {
-  "name": "guess-number",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.6.0",
-    "bootstrap": "^5.3.3"
-  }
+	"name": "guess-number",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^6.6.0",
+		"bootstrap": "^5.3.3"
+	}
 }

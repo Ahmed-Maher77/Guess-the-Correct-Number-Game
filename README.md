@@ -12,7 +12,7 @@ This interactive website invites users to guess a number between 0 and 10. The o
 
 
 ## Demo (Live Preview)
-Play the game live: <a href="" title="try the game" target="_blank">here</a>
+Play the game live: <a href="https://ahmed-maher77.github.io/Guess-the-Correct-Number-Game/dist/index.html" title="try the game" target="_blank">here</a>
 
 
 ## Key Features

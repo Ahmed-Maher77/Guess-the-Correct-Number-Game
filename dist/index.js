@@ -41,8 +41,11 @@ function createMsg(msgContent) {
     msgsContainer.classList.remove('invisible');
 }
 // Hide message when input changes
-input.onchange = () => {
-    msgsContainer.classList.add('invisible');
+input.oninput = () => {
+    const enteredNum = Number(input.value);
+    if (input.value.trim() !== "" || !isNaN(enteredNum) || enteredNum > 0 || enteredNum < 10) {
+        msgsContainer.classList.add('invisible');
+    }
 };
 // Function to create and display a popup
 function createPopup(head, content) {

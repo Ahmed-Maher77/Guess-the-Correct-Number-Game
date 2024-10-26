@@ -18,67 +18,70 @@
         <link rel="stylesheet" href="./style.css" />
 	</head>
 	<body class="d-flex justify-content-center align-items-center h-screen p-3">
-		<section class="d-flex flex-column gap-3 border p-3 rounded bg-white align-items-end">
-			<div class="input-field w-100">
-                <!-- Input Field for guessing a number -->
-				<input
-					class="p-2 rounded border border-secondary w-100"
-					type="text"
-					id="input"
-					placeholder="Enter an integer number from 0 to 10"
-                    aria-label="Input for guessing a number"
-				/>
-				<div class="msgs text-danger my-2 ms-2 invisible">
-					enter a valid number
+		<div class="w-100">
+			<h1 class="mb-5 fs-3 text-center text-white-50">Guess the correct number Game</h1>
+			<section class="d-flex flex-column gap-3 border p-3 rounded bg-white align-items-end">
+				<div class="input-field w-100">
+					<!-- Input Field for guessing a number -->
+					<input
+						class="p-2 rounded border border-secondary w-100"
+						type="text"
+						id="input"
+						placeholder="Enter an integer number from 0 to 10"
+						aria-label="Input for guessing a number"
+					/>
+					<div class="msgs text-danger my-2 ms-2 invisible">
+						enter a valid number
+					</div>
 				</div>
-			</div>
-            <!-- Button to Check the Number -->
-			<button id="checkBtn" class="btn btn-primary px-3 w-fit rounded">
-				Check the number
-			</button>
-		</section>
-
-        <!-- Popup Message Section -->
-		<div class="popup-msgs">
-			<!-- Button trigger modal -->
-			<button type="button"
-                id="popup-trigger"
-				class="btn btn-primary d-none"
-				data-bs-toggle="modal"
-				data-bs-target="#staticBackdrop"
-                aria-label="Show result modal"
-			>
-				Launch demo modal
-			</button>
-			<!-- Modal Structure -->
-			<div
-				class="modal fade"
-				id="staticBackdrop"
-				tab="-1"
-				aria-labelledby="staticBackdropLabel"
-				aria-hidden="true"
-			>
-				<div class="modal-dialog modal-dialog-centered">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h1 class="modal-title" id="staticBackdropLabel">
-							</h1>
-							<button
-								type="button"
-								class="btn-close"
-								data-bs-dismiss="modal"
-								aria-label="Close"
-							></button>
-						</div>
-						<div class="modal-body text-center py-4">Your Message Content</div>
-						<div class="modal-footer">
-							<button
-								type="button"
-								class="btn btn-danger"
-								data-bs-dismiss="modal"
-							>
-								Close
-							</button>
+				<!-- Button to Check the Number -->
+				<button id="checkBtn" class="btn btn-primary px-3 w-fit rounded">
+					Check the number
+				</button>
+			</section>
+	
+			<!-- Popup Message Section -->
+			<div class="popup-msgs">
+				<!-- Button trigger modal -->
+				<button type="button"
+					id="popup-trigger"
+					class="btn btn-primary d-none"
+					data-bs-toggle="modal"
+					data-bs-target="#staticBackdrop"
+					aria-label="Show result modal"
+				>
+					Launch demo modal
+				</button>
+				<!-- Modal Structure -->
+				<div
+					class="modal fade"
+					id="staticBackdrop"
+					tab="-1"
+					aria-labelledby="staticBackdropLabel"
+					aria-hidden="true"
+				>
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title" id="staticBackdropLabel">
+								</h1>
+								<button
+									type="button"
+									class="btn-close"
+									data-bs-dismiss="modal"
+									aria-label="Close"
+								></button>
+							</div>
+							<div class="modal-body text-center py-4">Your Message Content</div>
+							<div class="modal-footer">
+								<button
+									type="button"
+									class="btn btn-danger"
+									data-bs-dismiss="modal"
+								>
+									Close
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
